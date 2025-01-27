@@ -2,7 +2,7 @@
 
 Some Important Notes
 - Every entry int the dataset had a maximum multiplicity of particles - this maximum multipllicity differed which caused me problems while flattening. Hence, I split up each particle individually into an entry
-  and each event was alloted a related ID.
+  and particles of each event were alloted a common ID.
 - I first tried a random forest classification model which had a fairly low accuracy.
 - Then moved to a Gradient Boosting LightGBM model.
 - In the LightGBM model, during initial training, data analysis showed that the dataset was significantly unbalanced.
